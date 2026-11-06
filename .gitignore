@@ -1,0 +1,17 @@
+# iOS-tegu — working copies, never committed
+#
+# Extracted Apple firmware content is proprietary: it must never be committed.
+out/
+scratch/
+work/
+*.ipsw
+*.im4p
+*.im4m
+*.img4
+*.dmg
+*.plist
+!firmware/metadata/*.plist
+
+__pycache__/
+*.pyc
+.venv/

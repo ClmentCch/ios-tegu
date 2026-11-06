@@ -1,0 +1,857 @@
+{
+  "project": "iOS-tegu",
+  "description": "IPSW entry inventory \u2014 names, sizes, CRC-32 only, no content",
+  "archive": {
+    "filename": "iPhone17,3_27.2_24B119_Restore.ipsw",
+    "size_bytes": 12883623203,
+    "entry_count": 141
+  },
+  "entries": [
+    {
+      "name": "141-08824-244.dmg",
+      "uncompressed_size": 16777216,
+      "crc32": "59d8316a",
+      "method": 8
+    },
+    {
+      "name": "141-09491-242.dmg",
+      "uncompressed_size": 247463963,
+      "crc32": "99b4cc57",
+      "method": 8
+    },
+    {
+      "name": "141-10014-240.dmg.aea",
+      "uncompressed_size": 528482304,
+      "crc32": "0c35dfdf",
+      "method": 0
+    },
+    {
+      "name": "141-10071-217.dmg.aea",
+      "uncompressed_size": 8992587776,
+      "crc32": "bddbff0a",
+      "method": 0
+    },
+    {
+      "name": "141-10399-240.dmg",
+      "uncompressed_size": 245366811,
+      "crc32": "890c4b8e",
+      "method": 8
+    },
+    {
+      "name": "141-10542-237.dmg.aea",
+      "uncompressed_size": 255852544,
+      "crc32": "f8045ad5",
+      "method": 0
+    },
+    {
+      "name": "141-10680-227.dmg.aea",
+      "uncompressed_size": 2415919104,
+      "crc32": "4945777b",
+      "method": 0
+    },
+    {
+      "name": "BuildManifest.plist",
+      "uncompressed_size": 859708,
+      "crc32": "6fb9453f",
+      "method": 8
+    },
+    {
+      "name": "Firmware/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/141-08824-244.dmg.root_hash",
+      "uncompressed_size": 229,
+      "crc32": "ab9bf1d4",
+      "method": 8
+    },
+    {
+      "name": "Firmware/141-08824-244.dmg.trustcache",
+      "uncompressed_size": 863,
+      "crc32": "24a161f6",
+      "method": 8
+    },
+    {
+      "name": "Firmware/141-09491-242.dmg.trustcache",
+      "uncompressed_size": 8363,
+      "crc32": "bf9fd697",
+      "method": 8
+    },
+    {
+      "name": "Firmware/141-10014-240.dmg.aea.integrity_catalog",
+      "uncompressed_size": 1242881,
+      "crc32": "4c363aa8",
+      "method": 8
+    },
+    {
+      "name": "Firmware/141-10014-240.dmg.aea.root_hash",
+      "uncompressed_size": 229,
+      "crc32": "35f69b47",
+      "method": 8
+    },
+    {
+      "name": "Firmware/141-10014-240.dmg.aea.trustcache",
+      "uncompressed_size": 1565,
+      "crc32": "6e76070c",
+      "method": 8
+    },
+    {
+      "name": "Firmware/141-10071-217.dmg.aea.mtree",
+      "uncompressed_size": 40037031,
+      "crc32": "3d91d436",
+      "method": 8
+    },
+    {
+      "name": "Firmware/141-10071-217.dmg.aea.root_hash",
+      "uncompressed_size": 229,
+      "crc32": "a2218ce6",
+      "method": 8
+    },
+    {
+      "name": "Firmware/141-10071-217.dmg.aea.trustcache",
+      "uncompressed_size": 92833,
+      "crc32": "499aa6c6",
+      "method": 8
+    },
+    {
+      "name": "Firmware/141-10399-240.dmg.trustcache",
+      "uncompressed_size": 8209,
+      "crc32": "3cb35039",
+      "method": 8
+    },
+    {
+      "name": "Firmware/141-10542-237.dmg.aea.mtree",
+      "uncompressed_size": 1748762,
+      "crc32": "b6ba52ec",
+      "method": 8
+    },
+    {
+      "name": "Firmware/141-10542-237.dmg.aea.root_hash",
+      "uncompressed_size": 229,
+      "crc32": "bc84a5a3",
+      "method": 8
+    },
+    {
+      "name": "Firmware/141-10542-237.dmg.aea.trustcache",
+      "uncompressed_size": 8063,
+      "crc32": "950c82cb",
+      "method": 8
+    },
+    {
+      "name": "Firmware/141-10680-227.dmg.aea.root_hash",
+      "uncompressed_size": 229,
+      "crc32": "1d5cbbd8",
+      "method": 8
+    },
+    {
+      "name": "Firmware/141-10680-227.dmg.aea.trustcache",
+      "uncompressed_size": 3215,
+      "crc32": "05a08220",
+      "method": 8
+    },
+    {
+      "name": "Firmware/AOP/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/AOP/aopfw-d4yaop.RELEASE.im4p",
+      "uncompressed_size": 5005337,
+      "crc32": "22b2c915",
+      "method": 8
+    },
+    {
+      "name": "Firmware/AOP2/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/AOP2/aop2fw-d4yaop2.RELEASE.im4p",
+      "uncompressed_size": 5799961,
+      "crc32": "2bb6c717",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Ace3/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/Ace3/d4y/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/Ace3/d4y/usbcfw_d4y.uarp",
+      "uncompressed_size": 137873,
+      "crc32": "24403b77",
+      "method": 8
+    },
+    {
+      "name": "Firmware/AppleLPM/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/AppleLPM/AppleLPM.d47.release.im4p",
+      "uncompressed_size": 1253529,
+      "crc32": "5eaa62ee",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/Brunor/Savage.B0-Dev.fw",
+      "uncompressed_size": 114,
+      "crc32": "2938b057",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.B0-Dev.fw.plist",
+      "uncompressed_size": 323,
+      "crc32": "bd598dc8",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.B0-Prod.fw",
+      "uncompressed_size": 114,
+      "crc32": "673e606c",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.B0-Prod.fw.plist",
+      "uncompressed_size": 324,
+      "crc32": "7d7263f7",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.B2-Dev.fw",
+      "uncompressed_size": 34,
+      "crc32": "dc6b8725",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.B2-Dev.fw.plist",
+      "uncompressed_size": 323,
+      "crc32": "899cf788",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.B2-Prod.fw",
+      "uncompressed_size": 34,
+      "crc32": "243546f8",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.B2-Prod.fw.plist",
+      "uncompressed_size": 324,
+      "crc32": "43691322",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.BA-Dev.fw",
+      "uncompressed_size": 34,
+      "crc32": "dc6b8725",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.BA-Dev.fw.plist",
+      "uncompressed_size": 323,
+      "crc32": "0ed86b2b",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.BA-Prod.fw",
+      "uncompressed_size": 34,
+      "crc32": "243546f8",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.BA-Prod.fw.plist",
+      "uncompressed_size": 324,
+      "crc32": "0c31a5ec",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.BE-Dev.fw",
+      "uncompressed_size": 34,
+      "crc32": "dc6b8725",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.BE-Dev.fw.plist",
+      "uncompressed_size": 323,
+      "crc32": "39ae7cb5",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.BE-Prod.fw",
+      "uncompressed_size": 34,
+      "crc32": "243546f8",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.BE-Prod.fw.plist",
+      "uncompressed_size": 324,
+      "crc32": "1bb16db8",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.BF-Dev.fw",
+      "uncompressed_size": 114,
+      "crc32": "2938b057",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.BF-Dev.fw.plist",
+      "uncompressed_size": 323,
+      "crc32": "ed0e0032",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.BF-Prod.fw",
+      "uncompressed_size": 114,
+      "crc32": "673e606c",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Brunor/Savage.BF-Prod.fw.plist",
+      "uncompressed_size": 324,
+      "crc32": "204a2f78",
+      "method": 8
+    },
+    {
+      "name": "Firmware/D47_LeapHapticsFirmware.im4p",
+      "uncompressed_size": 253429,
+      "crc32": "511e119a",
+      "method": 8
+    },
+    {
+      "name": "Firmware/D47_MtpFirmware.im4p",
+      "uncompressed_size": 3580338,
+      "crc32": "a40112b8",
+      "method": 8
+    },
+    {
+      "name": "Firmware/D47_Multitouch.im4p",
+      "uncompressed_size": 850432,
+      "crc32": "bc17ed66",
+      "method": 8
+    },
+    {
+      "name": "Firmware/M3/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/M3/bin/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/M3/bin/securem3fw-d4y.im4p",
+      "uncompressed_size": 98745,
+      "crc32": "95205760",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Mav24-3.02.03.Release.bbfw",
+      "uncompressed_size": 114158444,
+      "crc32": "a2ee1a9f",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Mav24-3.02.03.Release.plist",
+      "uncompressed_size": 2507,
+      "crc32": "e5b80b55",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Rose/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/Rose/r2p1/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/Rose/r2p1/ftab.bin",
+      "uncompressed_size": 1069300,
+      "crc32": "be290674",
+      "method": 8
+    },
+    {
+      "name": "Firmware/SE/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/SE/StockholmE.RELEASE.sefw",
+      "uncompressed_size": 13420343,
+      "crc32": "fa18beb4",
+      "method": 8
+    },
+    {
+      "name": "Firmware/SE/StockholmE.RELEASE.sefw.plist",
+      "uncompressed_size": 205,
+      "crc32": "ca96ccaa",
+      "method": 8
+    },
+    {
+      "name": "Firmware/SmartIOFirmware_ASCv7.im4p",
+      "uncompressed_size": 1140621,
+      "crc32": "7de1ac8e",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Sumter/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/Sumter/Yonkers,SysTopPatch0",
+      "uncompressed_size": 776,
+      "crc32": "b5bc7979",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Sumter/Yonkers,SysTopPatch0.plist",
+      "uncompressed_size": 1054,
+      "crc32": "509dd681",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Sumter/Yonkers,SysTopPatch1",
+      "uncompressed_size": 776,
+      "crc32": "868f2cf3",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Sumter/Yonkers,SysTopPatch1.plist",
+      "uncompressed_size": 1050,
+      "crc32": "baa6a7ab",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Sumter/Yonkers,SysTopPatch8",
+      "uncompressed_size": 776,
+      "crc32": "fa169602",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Sumter/Yonkers,SysTopPatch8.plist",
+      "uncompressed_size": 1056,
+      "crc32": "6367691e",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Sumter/Yonkers,SysTopPatch9",
+      "uncompressed_size": 776,
+      "crc32": "c925c388",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Sumter/Yonkers,SysTopPatch9.plist",
+      "uncompressed_size": 1052,
+      "crc32": "6a959268",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Veridian/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/Veridian/X2821/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/Veridian/X2821/DigestMap.der",
+      "uncompressed_size": 2048,
+      "crc32": "519f12bb",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Veridian/X2821/DigestMap.der.plist",
+      "uncompressed_size": 107,
+      "crc32": "87374909",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Veridian/X2821/FirmwareMap.plist",
+      "uncompressed_size": 396431,
+      "crc32": "d598716d",
+      "method": 8
+    },
+    {
+      "name": "Firmware/Veridian/X2821/FirmwareMap.plist.plist",
+      "uncompressed_size": 111,
+      "crc32": "798d8f84",
+      "method": 8
+    },
+    {
+      "name": "Firmware/WirelessPower/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/WirelessPower/WirelessPower.d9x_d4y.im4p",
+      "uncompressed_size": 234815,
+      "crc32": "ebfc8680",
+      "method": 8
+    },
+    {
+      "name": "Firmware/agx/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/agx/armfw1_g17p.im4p",
+      "uncompressed_size": 5689273,
+      "crc32": "ef79128f",
+      "method": 8
+    },
+    {
+      "name": "Firmware/agx/armfw_g17p.im4p",
+      "uncompressed_size": 5771033,
+      "crc32": "9fbd0cf3",
+      "method": 8
+    },
+    {
+      "name": "Firmware/all_flash/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/all_flash/DeviceTree.d47ap.im4p",
+      "uncompressed_size": 65023,
+      "crc32": "be2fff31",
+      "method": 8
+    },
+    {
+      "name": "Firmware/all_flash/LLB.d47.RELEASE.im4p",
+      "uncompressed_size": 1721724,
+      "crc32": "8a97dd73",
+      "method": 8
+    },
+    {
+      "name": "Firmware/all_flash/LLB.d47.RESEARCH_RELEASE.im4p",
+      "uncompressed_size": 1778833,
+      "crc32": "9e06ec56",
+      "method": 8
+    },
+    {
+      "name": "Firmware/all_flash/applelogo@2556~iphone.im4p",
+      "uncompressed_size": 19194,
+      "crc32": "f7cc486a",
+      "method": 8
+    },
+    {
+      "name": "Firmware/all_flash/iBoot.d47.RELEASE.im4p",
+      "uncompressed_size": 1721234,
+      "crc32": "2194811e",
+      "method": 8
+    },
+    {
+      "name": "Firmware/all_flash/iBoot.d47.RESEARCH_RELEASE.im4p",
+      "uncompressed_size": 1778343,
+      "crc32": "09a4e146",
+      "method": 8
+    },
+    {
+      "name": "Firmware/all_flash/iBootData.d47.RELEASE.im4p",
+      "uncompressed_size": 31235,
+      "crc32": "7531f19b",
+      "method": 8
+    },
+    {
+      "name": "Firmware/all_flash/iBootData.d47.RESEARCH_RELEASE.im4p",
+      "uncompressed_size": 31235,
+      "crc32": "7531f19b",
+      "method": 8
+    },
+    {
+      "name": "Firmware/all_flash/liquiddetect@2556~iphone-USBc.im4p",
+      "uncompressed_size": 1037067,
+      "crc32": "abb5acd8",
+      "method": 8
+    },
+    {
+      "name": "Firmware/all_flash/recoverymode@2556~iphone-USBc.im4p",
+      "uncompressed_size": 2625732,
+      "crc32": "bb9846f3",
+      "method": 8
+    },
+    {
+      "name": "Firmware/all_flash/researchlogo@2556~iphone.im4p",
+      "uncompressed_size": 60808,
+      "crc32": "909f7ab8",
+      "method": 8
+    },
+    {
+      "name": "Firmware/all_flash/sep-firmware.d47.RELEASE.im4p",
+      "uncompressed_size": 7657547,
+      "crc32": "041b5057",
+      "method": 8
+    },
+    {
+      "name": "Firmware/all_flash/sep-firmware.d47.RELEASE.im4p.plist",
+      "uncompressed_size": 2890,
+      "crc32": "6af324b9",
+      "method": 8
+    },
+    {
+      "name": "Firmware/all_flash/sep-patches.d47.im4p",
+      "uncompressed_size": 21136,
+      "crc32": "898b61c9",
+      "method": 8
+    },
+    {
+      "name": "Firmware/all_flash/sep-patches.d47.im4p.plist",
+      "uncompressed_size": 1158,
+      "crc32": "0608f637",
+      "method": 8
+    },
+    {
+      "name": "Firmware/ane/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/ane/h17_ane_fw_theia_d9x.im4p",
+      "uncompressed_size": 1540121,
+      "crc32": "8509c4a2",
+      "method": 8
+    },
+    {
+      "name": "Firmware/ansf.t8140.release.im4p",
+      "uncompressed_size": 1293903,
+      "crc32": "e5bdc3e1",
+      "method": 8
+    },
+    {
+      "name": "Firmware/ave/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/ave/AppleAVE2FW_H17.im4p",
+      "uncompressed_size": 2748489,
+      "crc32": "fc282a92",
+      "method": 8
+    },
+    {
+      "name": "Firmware/dcp/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/dcp/t8140dcp.im4p",
+      "uncompressed_size": 2575131,
+      "crc32": "459f09d4",
+      "method": 8
+    },
+    {
+      "name": "Firmware/dcp/t8140dcp_restore.im4p",
+      "uncompressed_size": 2569937,
+      "crc32": "ad22d80b",
+      "method": 8
+    },
+    {
+      "name": "Firmware/dfu/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/dfu/iBEC.d47.RELEASE.im4p",
+      "uncompressed_size": 1721264,
+      "crc32": "2412a775",
+      "method": 8
+    },
+    {
+      "name": "Firmware/dfu/iBEC.d47.RESEARCH_RELEASE.im4p",
+      "uncompressed_size": 1778373,
+      "crc32": "d61a68bd",
+      "method": 8
+    },
+    {
+      "name": "Firmware/dfu/iBSS.d47.RELEASE.im4p",
+      "uncompressed_size": 1721724,
+      "crc32": "3e073c01",
+      "method": 8
+    },
+    {
+      "name": "Firmware/dfu/iBSS.d47.RESEARCH_RELEASE.im4p",
+      "uncompressed_size": 1778833,
+      "crc32": "7619f2cb",
+      "method": 8
+    },
+    {
+      "name": "Firmware/embeddedaudioresources/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/embeddedaudioresources/image4/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/embeddedaudioresources/image4/d47-boot-chime.im4p",
+      "uncompressed_size": 581793,
+      "crc32": "e522d16c",
+      "method": 8
+    },
+    {
+      "name": "Firmware/image4/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p",
+      "uncompressed_size": 32555242,
+      "crc32": "1ad3d437",
+      "method": 8
+    },
+    {
+      "name": "Firmware/image4/exclavecore_bundle.t8140.RELEASE.restore.im4p",
+      "uncompressed_size": 17989866,
+      "crc32": "cbd2a24f",
+      "method": 8
+    },
+    {
+      "name": "Firmware/isp_bni/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/isp_bni/adc-rheia-d4y.im4p",
+      "uncompressed_size": 28655643,
+      "crc32": "28b5a100",
+      "method": 8
+    },
+    {
+      "name": "Firmware/pmc/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/pmc/t8140pmcfw.im4p",
+      "uncompressed_size": 23983,
+      "crc32": "a5844712",
+      "method": 8
+    },
+    {
+      "name": "Firmware/pmp/",
+      "uncompressed_size": 0,
+      "crc32": "00000000",
+      "method": 0
+    },
+    {
+      "name": "Firmware/pmp/t8140pmp.im4p",
+      "uncompressed_size": 626713,
+      "crc32": "7310737e",
+      "method": 8
+    },
+    {
+      "name": "Firmware/rans.t8140.release.im4p",
+      "uncompressed_size": 1293918,
+      "crc32": "33b8f352",
+      "method": 8
+    },
+    {
+      "name": "Firmware/sptm.t8140.release.im4p",
+      "uncompressed_size": 213076,
+      "crc32": "8cae621e",
+      "method": 8
+    },
+    {
+      "name": "Firmware/txm.iphoneos.release.im4p",
+      "uncompressed_size": 224174,
+      "crc32": "c709586f",
+      "method": 8
+    },
+    {
+      "name": "Firmware/txm.iphoneos.research.im4p",
+      "uncompressed_size": 224183,
+      "crc32": "6339370e",
+      "method": 8
+    },
+    {
+      "name": "Firmware/vinyl_0a.plist",
+      "uncompressed_size": 2515,
+      "crc32": "980f13c4",
+      "method": 8
+    },
+    {
+      "name": "Firmware/vinyl_0a.vnlfw",
+      "uncompressed_size": 17388840,
+      "crc32": "c8e53e21",
+      "method": 8
+    },
+    {
+      "name": "Restore.plist",
+      "uncompressed_size": 1090,
+      "crc32": "c5ba9ee5",
+      "method": 8
+    },
+    {
+      "name": "RestoreVersion.plist",
+      "uncompressed_size": 360,
+      "crc32": "bec2b479",
+      "method": 8
+    },
+    {
+      "name": "SystemVersion.plist",
+      "uncompressed_size": 490,
+      "crc32": "89a12597",
+      "method": 8
+    },
+    {
+      "name": "kernelcache.release.d47",
+      "uncompressed_size": 23736643,
+      "crc32": "0a06c09c",
+      "method": 8
+    },
+    {
+      "name": "kernelcache.research.d47",
+      "uncompressed_size": 23736721,
+      "crc32": "52fdc326",
+      "method": 8
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "tool": "iOS-tegu/mega_probe",
+  "generated_utc": "2026-11-06T19:33:14Z",
+  "link_handle": "k7gATJDD",
+  "key_fingerprint_sha256": "75f31ab63773bb423fec7bf181dd21a1fcde1a55e6a54876fe86a367c470b218",
+  "key_length_bytes": 32,
+  "api_ok": true,
+  "size_bytes": 12883623203,
+  "size_gib": 11.999,
+  "node_handle": "O0AOSBSnoHc",
+  "msd": 1,
+  "attributes_decrypted": false,
+  "first_block_http_status": 206,
+  "first_block_sha256_16": "ae5ec88052c9ade9",
+  "payload_magic_decrypted": null,
+  "first_block_hex_16": "1e94bdaba02bf671835a706e7cafb820",
+  "extent_probes": [
+    {
+      "offset": 0,
+      "requested_bytes": 16,
+      "http_status": 206,
+      "returned_bytes": 16,
+      "sha256_16": "5f4cd4c7f7fcb25c"
+    },
+    {
+      "offset": 6441811601,
+      "requested_bytes": 16,
+      "http_status": 206,
+      "returned_bytes": 16,
+      "sha256_16": "6e162d5283e2646b"
+    },
+    {
+      "offset": 12883619107,
+      "requested_bytes": 16,
+      "http_status": 206,
+      "returned_bytes": 16,
+      "sha256_16": "82e857193de2f8aa"
+    },
+    {
+      "offset": 12883623187,
+      "requested_bytes": 16,
+      "http_status": 206,
+      "returned_bytes": 16,
+      "sha256_16": "6707b1480771285c"
+    },
+    {
+      "offset": 3220905800,
+      "requested_bytes": 16,
+      "http_status": 206,
+      "returned_bytes": 16,
+      "sha256_16": "8b47c677c9ddb7c2"
+    }
+  ],
+  "extent_probes_ok": true,
+  "key_valid": false
+}

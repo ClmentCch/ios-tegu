@@ -1,0 +1,1072 @@
+{
+  "project": "iOS-tegu",
+  "schema": 1,
+  "source": {
+    "type": "Apple public restore image (CDN)",
+    "filename": "iPhone17,3_27.2_24B119_Restore.ipsw",
+    "url": "https://updates.cdn-apple.com/2026FallFCS/c6c0afa0-c002-45b9-ad4c-d2db3bfa30ac/iPhone17,3_27.2_24B119_Restore.ipsw",
+    "size_bytes": 12883623203,
+    "sha256": "62158ad39a22fca5620deeb407cf367cab1775cf1c2fbbdf627321383af78f8b",
+    "sha1": "deded6f40315d32e1043f23f65a045bafdfba0cc",
+    "md5": "628d9a1360737c4faf2773d861c1c48b",
+    "index": "api.ipsw.me v4"
+  },
+  "integrity": {
+    "full_stream_sha256_verified": true,
+    "method": "tools/ipsw_stream_verify.py — 12.9 GB read once, hashed in memory, no local copy",
+    "zip_entry_crc32_verified": [
+      "BuildManifest.plist",
+      "Restore.plist",
+      "RestoreVersion.plist",
+      "SystemVersion.plist"
+    ]
+  },
+  "product": {
+    "product_version": "27.2",
+    "product_build": "24B119",
+    "supported_product_types": [
+      "iPhone17,3"
+    ],
+    "manifest_version": 0,
+    "build_identities": [
+      {
+        "device_class": "d47ap",
+        "variant": "Customer Erase Install (IPSW)",
+        "components": 103
+      },
+      {
+        "device_class": "d47ap",
+        "variant": "Customer Upgrade Install (IPSW)",
+        "components": 103
+      },
+      {
+        "device_class": "d47ap",
+        "variant": "Research Customer Erase Install (IPSW)",
+        "components": 103
+      },
+      {
+        "device_class": "d47ap",
+        "variant": "Research Customer Upgrade Install (IPSW)",
+        "components": 103
+      },
+      {
+        "device_class": "d47ap",
+        "variant": "Recovery Customer Install",
+        "components": 30
+      }
+    ],
+    "restore_product_version": "27.2",
+    "restore_product_build": "24B119",
+    "device_map": [
+      {
+        "BDID": 8,
+        "BoardConfig": "d47ap",
+        "CPID": 33088,
+        "Platform": "t8140",
+        "SCEP": 0,
+        "SDOM": 1
+      }
+    ],
+    "system_restore_file_systems": {
+      "141-10071-217.dmg.aea": "APFS",
+      "141-10542-237.dmg.aea": "APFS"
+    }
+  },
+  "archive": {
+    "url": "https://updates.cdn-apple.com/2026FallFCS/c6c0afa0-c002-45b9-ad4c-d2db3bfa30ac/iPhone17,3_27.2_24B119_Restore.ipsw",
+    "size_bytes": 12883623203,
+    "entry_count": 141,
+    "total_uncompressed_bytes": 13088874633
+  },
+  "statistics": {
+    "entries": 141,
+    "files": 113,
+    "directories": 28,
+    "category_count": {
+      "filesystem-dmg": 3,
+      "filesystem-encrypted-aea": 4,
+      "metadata-plist": 26,
+      "directory": 28,
+      "integrity-sidecar": 15,
+      "firmware-image": 63,
+      "kernel": 2
+    },
+    "category_bytes": {
+      "filesystem-dmg": 509607990,
+      "filesystem-encrypted-aea": 12192841728,
+      "metadata-plist": 1275019,
+      "directory": 0,
+      "integrity-sidecar": 43152930,
+      "firmware-image": 294523602,
+      "kernel": 47473364
+    },
+    "total_uncompressed_bytes": 13088874633
+  },
+  "manifest": {
+    "manifest_version": 0,
+    "build_identities": [
+      {
+        "device_class": "d47ap",
+        "variant": "Customer Erase Install (IPSW)",
+        "components": 103
+      },
+      {
+        "device_class": "d47ap",
+        "variant": "Customer Upgrade Install (IPSW)",
+        "components": 103
+      },
+      {
+        "device_class": "d47ap",
+        "variant": "Research Customer Erase Install (IPSW)",
+        "components": 103
+      },
+      {
+        "device_class": "d47ap",
+        "variant": "Research Customer Upgrade Install (IPSW)",
+        "components": 103
+      },
+      {
+        "device_class": "d47ap",
+        "variant": "Recovery Customer Install",
+        "components": 30
+      }
+    ],
+    "erase_identity_info": {
+      "Ap,Timestamp": 0,
+      "BuildNumber": "24B119",
+      "BuildTrain": "RaveB",
+      "ContentEncoding": "aea",
+      "Cryptex1,AppOSSize": 16,
+      "Cryptex1,SystemOSSize": 6026,
+      "DeviceClass": "d47ap",
+      "FDRSupport": true,
+      "ImageName": "D47RestoreIPSW",
+      "MinimumSystemPartition": 9289,
+      "MobileDeviceMinVersion": "1853",
+      "OSDiskImageSize": 9832,
+      "OSVarContentSize": 782385152,
+      "RecoveryVariant": "Recovery Customer Install",
+      "RequestManifestProperties": "['Ap,Timestamp', 'Ap,VM']",
+      "RequiresNonceSlot": true,
+      "RequiresUIDMode": true,
+      "RestoreAttestationMode": 8,
+      "RestoreBehavior": "Erase",
+      "SystemPartitionPadding": "{'1024': 1280, '128': 1280, '16': 160, '256': 1280, '32': 320, '512': 1280, '64': 640, '768': 1280, '8': 80}",
+      "Variant": "Customer Erase Install (IPSW)",
+      "VariantContents": "{'Ap,ExclaveOS': 'Production', 'BasebandFirmware': 'Release', 'Cryptex1,AppOS': 'CryptexOne', 'Cryptex1,SystemOS': 'CryptexOne', 'DCP': 'Production', 'DFU': 'Production', 'Firmware': 'Production', 'InitiumBaseband': 'Production', 'InstalledKernelCache': 'Production', 'InstalledSPTM': 'Production', 'OS': 'Production', 'RestoreKernelCache': 'Production', 'RestoreRamDisk': 'Production', 'RestoreSEP': 'Production', 'RestoreSPTM': 'Production', 'SEP': 'Production', 'VinylFirmware': 'Release'}"
+    },
+    "component_count": 103
+  },
+  "components": [
+    {
+      "component": "ANE",
+      "path": "Firmware/ane/h17_ane_fw_theia_d9x.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "9a0e857d2d67ecda68bb115978f70665690202bc0665c0033be50f796318bdd6b277b6a3d4491a020de92f7d4409f1fe"
+    },
+    {
+      "component": "ANS",
+      "path": "Firmware/ansf.t8140.release.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "872050f832e78aff9bb8f9bf689d55561f57d5ce955a1033a59acaa475ff3fe9733e1eaec4aea655c93ee9d118315c38"
+    },
+    {
+      "component": "AOP",
+      "path": "Firmware/AOP/aopfw-d4yaop.RELEASE.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "e628786d8ee4b2643dc290bd48ca8f582f24ad935c1711e6f2388431ad80c6ec438a4a966ca99dc9ad0201f2590b2cce"
+    },
+    {
+      "component": "AOP2",
+      "path": "Firmware/AOP2/aop2fw-d4yaop2.RELEASE.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "d1b7b7e79379e223812deb5aedfa9b614aede6ac4029fe1f20b5457321e55539b158263bdc4d1fb6ea351255fdda560f"
+    },
+    {
+      "component": "AVE",
+      "path": "Firmware/ave/AppleAVE2FW_H17.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "13d7ce6f4125765dbd08272aaab1bbc95db7f2a3497548a9d1257848b260195c25dea247baa86a78c415c22a4a9b6318"
+    },
+    {
+      "component": "Ap,ApplePMCFirmware",
+      "path": "Firmware/pmc/t8140pmcfw.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "a8c3fec2ef6cf7a81cfa86f6f140002205f19197c807c3fe49cbb87201392d8a69c64010d9fe2bd913367da8b9462b30"
+    },
+    {
+      "component": "Ap,AudioBootChime",
+      "path": "Firmware/embeddedaudioresources/image4/d47-boot-chime.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "15e05657d41189e9b2158bbc8487ec70b2ba6a3895131ebe6c075507b997a4a28884aa5c14667de91eaac2bc7af20416"
+    },
+    {
+      "component": "Ap,ExclaveOS",
+      "path": "141-10014-240.dmg.aea",
+      "personalize": false,
+      "hash_method": "sha2-384",
+      "trusted": true,
+      "digest_sha1": "9f111121b30bcbd041eea3b540e0bae2bddec1270811848fe247d90c9327c213c0ef993f36793863dd7b15e124c6e7f5"
+    },
+    {
+      "component": "Ap,ExclaveOSIntegrityCatalog",
+      "path": "Firmware/141-10014-240.dmg.aea.integrity_catalog",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "b455a149bd813785fc81917dc783322d741787fe11a041b24ada6b6e3b424cc131811fa50650fea695a74629faa63d9b"
+    },
+    {
+      "component": "Ap,ExclaveOSTrustCache",
+      "path": "Firmware/141-10014-240.dmg.aea.trustcache",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "ba383955695dc1953b66503e616129402e14742cc09f6410ef2efb39105e445bbec16ce6d0712c0bb1c1fb070be1d2c0"
+    },
+    {
+      "component": "Ap,ExclaveOSVolume",
+      "path": "Firmware/141-10014-240.dmg.aea.root_hash",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "fa6e6247297c8eb92b965eae21e8e39d80753fc54ea550470b214dd2ea03ebd91daf68e430089093782ee8a226d72a10"
+    },
+    {
+      "component": "Ap,GFX1Firmware",
+      "path": "Firmware/agx/armfw1_g17p.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "8fe820f76ca19575bfe23feb6dca11fd8edfc239f5e9e7bfb9deefbaf51d26b3330df8a69bd2476d5c0a1fe86d583085"
+    },
+    {
+      "component": "Ap,LowPowerMode",
+      "path": "Firmware/AppleLPM/AppleLPM.d47.release.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": false,
+      "digest_sha1": "5d2a98b6d99f48d420292cd14b752c894f6873fd90cf2081b29faa15f23c3d639dcc7a48bba4491903d9c024f7e4d34b"
+    },
+    {
+      "component": "Ap,RestoreSecureM3Firmware",
+      "path": "Firmware/M3/bin/securem3fw-d4y.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "b434188a72fc7c678388644b5e6a509aeb52a5ec332872e2abc443b0b899804d76487bdc853287acd8fad91d32f07bbf"
+    },
+    {
+      "component": "Ap,RestoreSecurePageTableMonitor",
+      "path": "Firmware/sptm.t8140.release.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "d3aef763bd45653f29931d36dca32da8ac7f8ac3eee198e83a5f88b238d09993b0bab56ebe810f2a6c7205a7c07a297f"
+    },
+    {
+      "component": "Ap,RestoreTrustedExecutionMonitor",
+      "path": "Firmware/txm.iphoneos.release.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "67646890f1d2f372250d43cfd5b0508e063056b6edf13e8b1ebf5b47aa2ff3cc8ae570520798141750f77c22a853bf52"
+    },
+    {
+      "component": "Ap,RestorecL4",
+      "path": "Firmware/image4/exclavecore_bundle.t8140.RELEASE.restore.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "371d4eee37238255ebc8e552723c3888b15394cd226daaead9d5b348c8543ce84e0bee876b4a184637447790c44cdd9b"
+    },
+    {
+      "component": "Ap,SecureM3Firmware",
+      "path": "Firmware/M3/bin/securem3fw-d4y.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "5b2ff6b38dfc70365e682106f0e48b00d694b6854fe465c016a175cf3767859c96137cdcc2614eaf54bc2c1dc989ae06"
+    },
+    {
+      "component": "Ap,SecurePageTableMonitor",
+      "path": "Firmware/sptm.t8140.release.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "7c497a89a15e24187440eebfb8e8cb65ef3f9fa16c14732a686d05f61f872c8604941f79a76f119df75a1696c3a85a6d"
+    },
+    {
+      "component": "Ap,SystemVolumeCanonicalMetadata",
+      "path": "Firmware/141-10071-217.dmg.aea.mtree",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "8b9a2122c710569880d5ee845b27ea5fdbb13a81b35ba05f2cbd2f82910cea914cdf060f2a4bef0375dc9d0a2da0e0e1"
+    },
+    {
+      "component": "Ap,TrustedExecutionMonitor",
+      "path": "Firmware/txm.iphoneos.release.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "d1f47d55fd17c64cc83b06458acc1d06b1a1897174332c61e63b92fee0083a119b59d366676ab973a73b610168360f3b"
+    },
+    {
+      "component": "Ap,cL4",
+      "path": "Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "f3ee2be596ea1fe76c1b78d6e65171cade33a9ade96cdfc46f6585079a9506bfd3df455be6555acd42a8ddee405d75b1"
+    },
+    {
+      "component": "AppleLogo",
+      "path": "Firmware/all_flash/applelogo@2556~iphone.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "f83bd6dfb3e5f54377fdc8a117e583cbc566cbb7e5d35331f854c50146cf6333ad14f9a8ad48a82c714d6db55d78d550"
+    },
+    {
+      "component": "BMU,DigestMap",
+      "path": "Firmware/Veridian/X2821/DigestMap.der",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "b7b47875186e1221a270f2a5283423c19b758bb0b92bcf37cc92b7f04ec8e2c8"
+    },
+    {
+      "component": "BMU,FirmwareMap",
+      "path": "Firmware/Veridian/X2821/FirmwareMap.plist",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "432f834e8e1d52f54aac4f518160a9580b93e9c1fe16756b35474b2559dee19a"
+    },
+    {
+      "component": "BasebandFirmware",
+      "path": "Firmware/Mav24-3.02.03.Release.bbfw",
+      "personalize": null,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": null
+    },
+    {
+      "component": "Cryptex1,AppOS",
+      "path": "141-08824-244.dmg",
+      "personalize": false,
+      "hash_method": "sha2-384",
+      "trusted": null,
+      "digest_sha1": "2ba33eb6964dba7ac3a139ba8946e1ead45e1e4ae373bfcc2f27c72b3dc29bfe5a1ad5898cb2dc1ba90be40e063dc5e7"
+    },
+    {
+      "component": "Cryptex1,AppTrustCache",
+      "path": "Firmware/141-08824-244.dmg.trustcache",
+      "personalize": true,
+      "hash_method": "sha2-384",
+      "trusted": null,
+      "digest_sha1": "6f30833f63f7605de95117045702dfe1695f0e14960a04f7ef69dd1170764d1b4ce626fcef782301ed029b01ca3cd31e"
+    },
+    {
+      "component": "Cryptex1,AppVolume",
+      "path": "Firmware/141-08824-244.dmg.root_hash",
+      "personalize": true,
+      "hash_method": "sha2-384",
+      "trusted": null,
+      "digest_sha1": "f4569b60c98bbf344847d81aa7f2d38a7e46e09196889f18d0abaa1e4b3d2bb9a9a6d0229e1341a27d528e37029272a4"
+    },
+    {
+      "component": "Cryptex1,SystemOS",
+      "path": "141-10680-227.dmg.aea",
+      "personalize": false,
+      "hash_method": "sha2-384",
+      "trusted": null,
+      "digest_sha1": "854375f119864787c14ff4b7bf00e57f0d390ebfe9198f6e83cbc263214397fe70f750b8b7c09c722244be3a0e0dedc2"
+    },
+    {
+      "component": "Cryptex1,SystemTrustCache",
+      "path": "Firmware/141-10680-227.dmg.aea.trustcache",
+      "personalize": true,
+      "hash_method": "sha2-384",
+      "trusted": null,
+      "digest_sha1": "b87264fa5c956fe8e93b7c5cda935dcfee7f12a4f5ba24a9e1d82d9ad7592b86cdbac95146d8dbc6770a1a063cdc9a32"
+    },
+    {
+      "component": "Cryptex1,SystemVolume",
+      "path": "Firmware/141-10680-227.dmg.aea.root_hash",
+      "personalize": true,
+      "hash_method": "sha2-384",
+      "trusted": null,
+      "digest_sha1": "9a37302ec8252065ef152ec92721e498eb1c428cd093d87ef0d9f7af89ecd0fb60feaff01ea38b0c7ecb103370cd904c"
+    },
+    {
+      "component": "DCP",
+      "path": "Firmware/dcp/t8140dcp.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "7b73d3ac0e156660caa71288377f16a24b80603672856c75fbe0727023ff487b4905dc4a632c6b7d561b8a8b94dfe060"
+    },
+    {
+      "component": "DeviceTree",
+      "path": "Firmware/all_flash/DeviceTree.d47ap.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "e092e18ca09ef408f619c8656b190764c293929b3a2a374b914d317af0bab30f9553666c7cb533fa6aaebfaca2de28b5"
+    },
+    {
+      "component": "GFX",
+      "path": "Firmware/agx/armfw_g17p.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "ec3dcd11d66be7377b87df00953b42b0c6f22987f527242eca94a39060f42172d733905f605de3eb11e97927f5bb5cf8"
+    },
+    {
+      "component": "ISP",
+      "path": "Firmware/isp_bni/adc-rheia-d4y.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "b9c35ccf81725f68b214fe4b959f33bc96066d415e8c29b27101f5af297e88e55271fe4559154fffe911ca8efd3dc5ad"
+    },
+    {
+      "component": "KernelCache",
+      "path": "kernelcache.release.d47",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "8bd2859174e99be0506036b0ac4b2edec221f447bffae4a571c059cf57a258ff3efc2eaffd3e8f63a77879ab71cf425f"
+    },
+    {
+      "component": "LLB",
+      "path": "Firmware/all_flash/LLB.d47.RELEASE.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "bf57c4f4e13db05c9caab9364d1b3c71e106e5e2523f11959a2b3ae1842872ce88c220d840582cc49af56a0fc453557c"
+    },
+    {
+      "component": "LeapHaptics",
+      "path": "Firmware/D47_LeapHapticsFirmware.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": false,
+      "digest_sha1": "6167f52f9588e537c5ebbd6817b78f9542d587f0e3374035b7d87b3517f13a45a94908308a2078b8ff3a571271c71077"
+    },
+    {
+      "component": "Liquid",
+      "path": "Firmware/all_flash/liquiddetect@2556~iphone-USBc.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "1fd5f86bc068777a30dc0d859291571c1b5427caf0deece7bf61be10088a5d6078d3d2556051022ad02ea13910c96946"
+    },
+    {
+      "component": "MtpFirmware",
+      "path": "Firmware/D47_MtpFirmware.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "d04e0355bd7af9b0a76dfe215da54601658b68d133cdf96dcf0707cb28dd39a866c0c5d79385c0ea6a46b7110af5d812"
+    },
+    {
+      "component": "Multitouch",
+      "path": "Firmware/D47_Multitouch.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": false,
+      "digest_sha1": "865c1f90291d68a90b983bbf13987ec313393d1cca6cb60e9c7eb3980832ab34b562bf7f2a816e96d44fc766579d0442"
+    },
+    {
+      "component": "OS",
+      "path": "141-10071-217.dmg.aea",
+      "personalize": false,
+      "hash_method": "sha2-384",
+      "trusted": true,
+      "digest_sha1": "856fab3e730e73b7c57c8f424793dc2a17dda263ff218e86f46c1f0d3182b5d68e70e23f44ade072175b1af9c06ebb69"
+    },
+    {
+      "component": "PMP",
+      "path": "Firmware/pmp/t8140pmp.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "7d358f4a25146bea2218e24364967088b92c3643c895197947e238a4ae61999a9f256243f54eeb5c600c19668f019cc0"
+    },
+    {
+      "component": "Rap,RTKitIOConfig",
+      "path": "Firmware/Rose/r2p1/ftab.bin",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "6b1013023f1c7479108eef02f6d78f03113b687efbcff90b17d9beca0445f96b0ebac5630f6599b54d3d8e63d164f364"
+    },
+    {
+      "component": "Rap,RTKitOS",
+      "path": "Firmware/Rose/r2p1/ftab.bin",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "916925c3084de9b97bd7bda2242f07be10754e7a9186b476dcba657f11a9cc8bd14427070b4c00f4669041490ee7e766"
+    },
+    {
+      "component": "Rap,SoftwareBinaryDsp1",
+      "path": "Firmware/Rose/r2p1/ftab.bin",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "2634331839df447e674826d3137bc2a72e22dd6464a5b485ca3bc93c5b744ba132b72bbc1e9934960e5680877f51908e"
+    },
+    {
+      "component": "RecoveryMode",
+      "path": "Firmware/all_flash/recoverymode@2556~iphone-USBc.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "bbfeb55e879084d8a7591c6214fac4f0db01eb1a5c71d3dedb15baaad8bc0096dde7521cad373ef79f4e4d3a5cb2bbd5"
+    },
+    {
+      "component": "RestoreANS",
+      "path": "Firmware/rans.t8140.release.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "6b933feea20fbe82f479e5082b0a8e38c57a85ae9eb7c81aec4322468b864681c7545f1959b0731f0358906a09c77424"
+    },
+    {
+      "component": "RestoreDCP",
+      "path": "Firmware/dcp/t8140dcp_restore.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "320b576361d009360abda14e5b0b5942f6e9a479ee7c1078d65f27b9916b9be3cc541b3ca3db645ac7b7b283e15127ee"
+    },
+    {
+      "component": "RestoreDeviceTree",
+      "path": "Firmware/all_flash/DeviceTree.d47ap.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "08dc1fe993bceb6bb4c4c49d66f487d5cddc1d994ab76f0cfb3c947fbf0a533ba36fd580fe40cbb1d5c69d68a3240a5d"
+    },
+    {
+      "component": "RestoreKernelCache",
+      "path": "kernelcache.release.d47",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "ad85f414e6b4fb36cba3c4bc2ed51de5d214d912d92ab4aa95bcf55330af3a09d13d220bc852767d95303aa8ea9557dc"
+    },
+    {
+      "component": "RestoreLogo",
+      "path": "Firmware/all_flash/applelogo@2556~iphone.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "3679a078c7ada3a6f4d65b54425776de3320964084b891cfbcddc9c2a7364f84518d496e667a81e0b02f133c08b40c7d"
+    },
+    {
+      "component": "RestoreRamDisk",
+      "path": "141-10399-240.dmg",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "079ad61471ccd121bf367b2c825520d1d55005f0281f292f958bab188c843090f26dd4b3bff81de8556b1250d7506453"
+    },
+    {
+      "component": "RestoreSEP",
+      "path": "Firmware/all_flash/sep-firmware.d47.RELEASE.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "e6f040ded1042162e92ec70bc25bff97128bfeb2a4d626f590329e5457f3b342260f02f1784bf8f30bf73bbdc7df21c8"
+    },
+    {
+      "component": "RestoreTrustCache",
+      "path": "Firmware/141-10399-240.dmg.trustcache",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "d7466faa10ca62e0076a7e1f6b55c0fe78ca3ab7ea025ecb1fe2974a880918d7f1692d1a5e094a6846298a5492e7b9d5"
+    },
+    {
+      "component": "SE,RapRTKitOS",
+      "path": "Firmware/Rose/r2p1/ftab.bin",
+      "personalize": false,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "916925c3084de9b97bd7bda2242f07be10754e7a9186b476dcba657f11a9cc8bd14427070b4c00f4669041490ee7e766"
+    },
+    {
+      "component": "SE,RapSwBinDsp",
+      "path": "Firmware/Rose/r2p1/ftab.bin",
+      "personalize": false,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "2634331839df447e674826d3137bc2a72e22dd6464a5b485ca3bc93c5b744ba132b72bbc1e9934960e5680877f51908e"
+    },
+    {
+      "component": "SE,UpdatePayload",
+      "path": "Firmware/SE/StockholmE.RELEASE.sefw",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": null
+    },
+    {
+      "component": "SEP",
+      "path": "Firmware/all_flash/sep-firmware.d47.RELEASE.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "37eb06e50a55ed28597d930364dfa734bad750a21f6174d55973a833e0f9b6b0dc45d47f1fcefe721eb2d9bcd10c15d5"
+    },
+    {
+      "component": "SIO",
+      "path": "Firmware/SmartIOFirmware_ASCv7.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "a548077b98234f1a87c6227abbcea7b7c3bf218febc9fb79332d6b488e3ac34893147c3399127971d43672f96af71d06"
+    },
+    {
+      "component": "Savage,B0-Dev-Patch",
+      "path": "Firmware/Brunor/Savage.B0-Dev.fw",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "0f679200a2d8619aea2bf95d1085b8c66f7e21c1c42d2532a22c0688e8e96512"
+    },
+    {
+      "component": "Savage,B0-Prod-Patch",
+      "path": "Firmware/Brunor/Savage.B0-Prod.fw",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "a64c33e49e925f9df16c1f5cc910fb6548327dcea97308a068daff7d67ea636e"
+    },
+    {
+      "component": "Savage,B2-Dev-Patch",
+      "path": "Firmware/Brunor/Savage.B2-Dev.fw",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "7d903ef29b08eec2a203d5ea2a0d73c0e30ab48b851b12f2924f4723fc399b15"
+    },
+    {
+      "component": "Savage,B2-Prod-Patch",
+      "path": "Firmware/Brunor/Savage.B2-Prod.fw",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "e774bf89999717435047a1d1152f6eadafce16b1d08511a620ec6c61f11c5dc4"
+    },
+    {
+      "component": "Savage,BA-Dev-Patch",
+      "path": "Firmware/Brunor/Savage.BA-Dev.fw",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "7d903ef29b08eec2a203d5ea2a0d73c0e30ab48b851b12f2924f4723fc399b15"
+    },
+    {
+      "component": "Savage,BA-Prod-Patch",
+      "path": "Firmware/Brunor/Savage.BA-Prod.fw",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "e774bf89999717435047a1d1152f6eadafce16b1d08511a620ec6c61f11c5dc4"
+    },
+    {
+      "component": "Savage,BE-Dev-Patch",
+      "path": "Firmware/Brunor/Savage.BE-Dev.fw",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "7d903ef29b08eec2a203d5ea2a0d73c0e30ab48b851b12f2924f4723fc399b15"
+    },
+    {
+      "component": "Savage,BE-Prod-Patch",
+      "path": "Firmware/Brunor/Savage.BE-Prod.fw",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "e774bf89999717435047a1d1152f6eadafce16b1d08511a620ec6c61f11c5dc4"
+    },
+    {
+      "component": "Savage,BF-Dev-Patch",
+      "path": "Firmware/Brunor/Savage.BF-Dev.fw",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "0f679200a2d8619aea2bf95d1085b8c66f7e21c1c42d2532a22c0688e8e96512"
+    },
+    {
+      "component": "Savage,BF-Prod-Patch",
+      "path": "Firmware/Brunor/Savage.BF-Prod.fw",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "a64c33e49e925f9df16c1f5cc910fb6548327dcea97308a068daff7d67ea636e"
+    },
+    {
+      "component": "SepStage1",
+      "path": "Firmware/all_flash/sep-patches.d47.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "6e7dbf5d5868fa4cc54fbd8f4e44a58f77da343ddc4b4fd3007d11ecae27f672e19820ae7a4725e1e69ec24208f98eb4"
+    },
+    {
+      "component": "StaticTrustCache",
+      "path": "Firmware/141-10071-217.dmg.aea.trustcache",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "8f6f4a81c342905b84f48eba6b11d55f39f0bd24278497fe954dead2b1bf9d74bec657b335f3507e7bbc812230b32f2b"
+    },
+    {
+      "component": "SystemVolume",
+      "path": "Firmware/141-10071-217.dmg.aea.root_hash",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "f29eb667b05ed5fff05b59afb5001db254e1f7405e8f940830a9b145b64cb8067b2206efc6026a52b608e3c46765abc4"
+    },
+    {
+      "component": "USBPortController1,USBFirmware",
+      "path": "Firmware/Ace3/d4y/usbcfw_d4y.uarp",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "d01e0d2cc44914fc38f7025cd37b767e657166dfb14db4bfae264e2f280f13c8"
+    },
+    {
+      "component": "WCHFirmwareUpdater",
+      "path": "Firmware/WirelessPower/WirelessPower.d9x_d4y.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "109819cef304ab7ba0b276e9819626ae4f73101dad294e37f0b7deed4efa7ba126d5021e407eaa93a627f4b5f8291b35"
+    },
+    {
+      "component": "Yonkers,SepObject",
+      "path": "Firmware/all_flash/sep-firmware.d47.RELEASE.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "37eb06e50a55ed28597d930364dfa734bad750a21f6174d55973a833e0f9b6b0dc45d47f1fcefe721eb2d9bcd10c15d5"
+    },
+    {
+      "component": "Yonkers,SysTopPatch0",
+      "path": "Firmware/Sumter/Yonkers,SysTopPatch0",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "955a5f1d5ab78da6d20ee3ff6bab3a6079b1e50231d853ab83ec66e7e08e5703"
+    },
+    {
+      "component": "Yonkers,SysTopPatch1",
+      "path": "Firmware/Sumter/Yonkers,SysTopPatch1",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "1a5e0060cfd1f4d897170c42cbea2e9bc1798335645ad3c2f992a67380aee8f2"
+    },
+    {
+      "component": "Yonkers,SysTopPatch2",
+      "path": "Firmware/Sumter/Yonkers,SysTopPatch0",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "955a5f1d5ab78da6d20ee3ff6bab3a6079b1e50231d853ab83ec66e7e08e5703"
+    },
+    {
+      "component": "Yonkers,SysTopPatch3",
+      "path": "Firmware/Sumter/Yonkers,SysTopPatch1",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "1a5e0060cfd1f4d897170c42cbea2e9bc1798335645ad3c2f992a67380aee8f2"
+    },
+    {
+      "component": "Yonkers,SysTopPatch4",
+      "path": "Firmware/Sumter/Yonkers,SysTopPatch0",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "955a5f1d5ab78da6d20ee3ff6bab3a6079b1e50231d853ab83ec66e7e08e5703"
+    },
+    {
+      "component": "Yonkers,SysTopPatch5",
+      "path": "Firmware/Sumter/Yonkers,SysTopPatch1",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "1a5e0060cfd1f4d897170c42cbea2e9bc1798335645ad3c2f992a67380aee8f2"
+    },
+    {
+      "component": "Yonkers,SysTopPatch6",
+      "path": "Firmware/Sumter/Yonkers,SysTopPatch0",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "955a5f1d5ab78da6d20ee3ff6bab3a6079b1e50231d853ab83ec66e7e08e5703"
+    },
+    {
+      "component": "Yonkers,SysTopPatch7",
+      "path": "Firmware/Sumter/Yonkers,SysTopPatch1",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "1a5e0060cfd1f4d897170c42cbea2e9bc1798335645ad3c2f992a67380aee8f2"
+    },
+    {
+      "component": "Yonkers,SysTopPatch8",
+      "path": "Firmware/Sumter/Yonkers,SysTopPatch8",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "0156e5d82ee46ddae774f509497177a6a7d581e2978dd0ce469b191256f14bb6"
+    },
+    {
+      "component": "Yonkers,SysTopPatch9",
+      "path": "Firmware/Sumter/Yonkers,SysTopPatch9",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "0ab6d6366ae2ff41dd21c9ad621ae038428b1d7ffabf20c070cbe6f673bd4489"
+    },
+    {
+      "component": "Yonkers,SysTopPatchA",
+      "path": "Firmware/Sumter/Yonkers,SysTopPatch8",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "0156e5d82ee46ddae774f509497177a6a7d581e2978dd0ce469b191256f14bb6"
+    },
+    {
+      "component": "Yonkers,SysTopPatchB",
+      "path": "Firmware/Sumter/Yonkers,SysTopPatch9",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "0ab6d6366ae2ff41dd21c9ad621ae038428b1d7ffabf20c070cbe6f673bd4489"
+    },
+    {
+      "component": "Yonkers,SysTopPatchC",
+      "path": "Firmware/Sumter/Yonkers,SysTopPatch8",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "0156e5d82ee46ddae774f509497177a6a7d581e2978dd0ce469b191256f14bb6"
+    },
+    {
+      "component": "Yonkers,SysTopPatchD",
+      "path": "Firmware/Sumter/Yonkers,SysTopPatch9",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "0ab6d6366ae2ff41dd21c9ad621ae038428b1d7ffabf20c070cbe6f673bd4489"
+    },
+    {
+      "component": "Yonkers,SysTopPatchE",
+      "path": "Firmware/Sumter/Yonkers,SysTopPatch8",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "0156e5d82ee46ddae774f509497177a6a7d581e2978dd0ce469b191256f14bb6"
+    },
+    {
+      "component": "Yonkers,SysTopPatchF",
+      "path": "Firmware/Sumter/Yonkers,SysTopPatch9",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "0ab6d6366ae2ff41dd21c9ad621ae038428b1d7ffabf20c070cbe6f673bd4489"
+    },
+    {
+      "component": "eUICC,Gold",
+      "path": "Firmware/vinyl_0a.vnlfw",
+      "personalize": null,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "a940eca125acdc8ac81690515bfb64b6e62a2baa23f65ee1850a5f7350bed79b"
+    },
+    {
+      "component": "eUICC,Main",
+      "path": "Firmware/vinyl_0a.vnlfw",
+      "personalize": null,
+      "hash_method": null,
+      "trusted": null,
+      "digest_sha1": "39fdcdda1863319885cf3c361c74eb1023e0e634e8d7116307a54deab2105432"
+    },
+    {
+      "component": "ftap",
+      "path": null,
+      "personalize": false,
+      "hash_method": "sha2-256",
+      "trusted": true,
+      "digest_sha1": null
+    },
+    {
+      "component": "ftsp",
+      "path": null,
+      "personalize": false,
+      "hash_method": "sha2-256",
+      "trusted": true,
+      "digest_sha1": null
+    },
+    {
+      "component": "iBEC",
+      "path": "Firmware/dfu/iBEC.d47.RELEASE.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "f6a32ed762d20e1574e080655779614c4f8f4edb3206d54300001ce9167853e01a5cf8d7fdc02a7c32a766d85dc71ae3"
+    },
+    {
+      "component": "iBSS",
+      "path": "Firmware/dfu/iBSS.d47.RELEASE.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "a15ffe8a1de62e933e8907890f177221c66430d4cfe763575fb2b075be36d4e45c6978ad7aa1604510d1cfd9c17dc58c"
+    },
+    {
+      "component": "iBoot",
+      "path": "Firmware/all_flash/iBoot.d47.RELEASE.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "cd72a5e51b6caf426b12e606e016a258d583223e24a0ed71d4a08bf0e24cea0c5ea8669046df4a999b91f26931e3de3d"
+    },
+    {
+      "component": "iBootData",
+      "path": "Firmware/all_flash/iBootData.d47.RELEASE.im4p",
+      "personalize": true,
+      "hash_method": null,
+      "trusted": true,
+      "digest_sha1": "af26ad3a2b3e6e28b713a615a194fcfea62f311db3d935da2fa3555f6e84257adf6811b2776c45617f8a030ccac9787d"
+    },
+    {
+      "component": "rfta",
+      "path": null,
+      "personalize": false,
+      "hash_method": "sha2-256",
+      "trusted": true,
+      "digest_sha1": null
+    },
+    {
+      "component": "rfts",
+      "path": null,
+      "personalize": false,
+      "hash_method": "sha2-256",
+      "trusted": true,
+      "digest_sha1": null
+    }
+  ],
+  "kernel": {
+    "container": "IM4P",
+    "type": "krnl",
+    "description": "KernelManagement_host-514.40.8",
+    "payload_bytes": 23736240,
+    "header_bytes": 56,
+    "payload_head_entropy_bits_per_byte": 7.983,
+    "payload_head_sample_bytes": 65480,
+    "entries": {
+      "kernelcache.release.d47": {
+        "size": 23736643,
+        "crc32": "0a06c09c"
+      },
+      "kernelcache.research.d47": {
+        "size": 23736721,
+        "crc32": "52fdc326"
+      }
+    },
+    "encrypted": true,
+    "encryption_note": "IM4P payload has near-maximum entropy; decryption requires Apple key material that is not present and is not bypassed by this project."
+  },
+  "encrypted_archives": {
+    "aea": [
+      {
+        "name": "141-10014-240.dmg.aea",
+        "size": 528482304,
+        "crc32": "0c35dfdf"
+      },
+      {
+        "name": "141-10071-217.dmg.aea",
+        "size": 8992587776,
+        "crc32": "bddbff0a"
+      },
+      {
+        "name": "141-10542-237.dmg.aea",
+        "size": 255852544,
+        "crc32": "f8045ad5"
+      },
+      {
+        "name": "141-10680-227.dmg.aea",
+        "size": 2415919104,
+        "crc32": "4945777b"
+      }
+    ],
+    "note": "Apple Encrypted Archive (AEA). The restore key is delivered through Apple personalization; the containers are stored, not decrypted."
+  },
+  "redistribution": {
+    "apple_binaries_in_repository": false,
+    "published": "file names, sizes, CRC-32, SHA-1 digests from BuildManifest, SHA-256 of extracted metadata entries and of the whole archive"
+  },
+  "extracted_entries": [
+    {
+      "file": "BuildManifest.plist",
+      "bytes": 859708,
+      "sha256": "7e2a5ae21a7c857211e12d025f55deb1646f9a8cf1bc88085c5ae2408eb28320"
+    },
+    {
+      "file": "Restore.plist",
+      "bytes": 1090,
+      "sha256": "c51048c01f5e82b03923950b72f22dfb976f3f38cf465e8256aa0068a347e240"
+    },
+    {
+      "file": "RestoreVersion.plist",
+      "bytes": 360,
+      "sha256": "01eb568727dc318f5850552d2919cd2bc3505ad0c90ff29ae10d140ec7ff3e5a"
+    },
+    {
+      "file": "SystemVersion.plist",
+      "bytes": 490,
+      "sha256": "99efb3418ec2ece8c5501bcd27dd5808f53539abb71be7fd6399630e7272caba"
+    },
+    {
+      "file": "kernelcache.head",
+      "bytes": 65536,
+      "sha256": "27b0f7cecc2dc4d5f90fdf6f063c3c33859ed4d60ec148b6638b30146ea73a74",
+      "im4p": {
+        "container": "IM4P",
+        "type": "krnl",
+        "description": "KernelManagement_host-514.40.8",
+        "payload_bytes": 23736240,
+        "payload_offset": 56,
+        "header_bytes": 56,
+        "payload_entropy_note": "payload is encrypted/compressed; no key material is used"
+      }
+    }
+  ]
+}

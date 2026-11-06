@@ -1,0 +1,49 @@
+{
+  "project": "iOS-tegu",
+  "device": {
+    "marketing_name": "Google Pixel 9a",
+    "codename": "tegu",
+    "aosp_device_tree": "android_device_google_tegu",
+    "model_numbers": ["GXQ96", "GTF7P", "G3Y12"],
+    "release_date": "2025-04-10",
+    "soc": {
+      "name": "Google Tensor G4",
+      "codename": "Zuma Pro",
+      "part_number": "S5P9875",
+      "process": "4 nm",
+      "confidence": "high",
+      "source": "https://en.wikipedia.org/wiki/Google_Tensor"
+    },
+    "cpu": {
+      "isa": "ARMv8-A aarch64",
+      "cores": [
+        {"core": "Cortex-X4", "count": 1, "clock_ghz": 3.1},
+        {"core": "Cortex-A720", "count": 3, "clock_ghz": 2.6},
+        {"core": "Cortex-A520", "count": 4, "clock_ghz": 1.92}
+      ],
+      "source": "https://wiki.lineageos.org/devices/tegu"
+    },
+    "gpu": {"name": "ARM Mali-G715 MP7", "source": "https://www.gsmarena.com/google_pixel_9a-13478.php"},
+    "memory": {"ram_gb": 8, "type": "LPDDR5X", "source": "https://www.gsmarena.com/google_pixel_9a-13478.php"},
+    "storage": {"capacity_gb": [128, 256], "type": "UFS 3.1", "source": "https://www.gsmarena.com/google_pixel_9a-13478.php"},
+    "display": {"panel": "P-OLED", "size_inch": 6.3, "resolution": "1080x2424", "refresh_hz": 120},
+    "security": {
+      "secure_element": "Titan M2",
+      "tee": "Trusty",
+      "verified_boot": "Android Verified Boot 2.0",
+      "bootloader_unlock": "officially supported (OEM unlocking)"
+    },
+    "shipped_os": {"android": "15", "kernel": "Linux 6.1 (android_kernel_google_gs-6.1)"},
+    "modem": {"name": "Samsung Exynos 5300", "confidence": "reported", "source": "https://9to5google.com/2024/09/03/pixel-9a-tensor-g4-modem/"}
+  },
+  "unverified": [
+    "Base addresses of GIC, debug UART, watchdog and clock controllers (require device-tree dump from a physical unit)",
+    "Exact display DDIC and touch controller part numbers",
+    "USB-C controller, charger and PMIC identifiers",
+    "Wi-Fi/Bluetooth combo part number"
+  ],
+  "policy": {
+    "physical_device_modified_by_this_project": false,
+    "flashing_performed": false
+  }
+}

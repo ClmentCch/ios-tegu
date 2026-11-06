@@ -1,0 +1,11 @@
+# iOS-tegu — SHA-256 des entrées de firmware réellement extraites
+# Référence uniquement : le contenu Apple n'est pas redistribué dans ce dépôt.
+# Analyse de iPhone17,3_27.2_24B119_Restore.ipsw
+# (SHA-256 de l'archive complète : 62158ad39a22fca5620deeb407cf367cab1775cf1c2fbbdf627321383af78f8b).
+# kernelcache.head = lecture partielle de 65536 octets (CRC non vérifiable).
+
+7e2a5ae21a7c857211e12d025f55deb1646f9a8cf1bc88085c5ae2408eb28320  BuildManifest.plist
+c51048c01f5e82b03923950b72f22dfb976f3f38cf465e8256aa0068a347e240  Restore.plist
+01eb568727dc318f5850552d2919cd2bc3505ad0c90ff29ae10d140ec7ff3e5a  RestoreVersion.plist
+99efb3418ec2ece8c5501bcd27dd5808f53539abb71be7fd6399630e7272caba  SystemVersion.plist
+27b0f7cecc2dc4d5f90fdf6f063c3c33859ed4d60ec148b6638b30146ea73a74  kernelcache.head
